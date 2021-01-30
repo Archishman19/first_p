@@ -1,0 +1,443 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.extra-div h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%, 100% 88%, 60% 100%, 0 85%, 0 0);
+}
+
+
+.navbar{
+    background-color:#000E1B; 
+}
+
+
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: #FBA51B;
+    text-align: left;
+    position: relative;
+    padding-left: 40px;
+}
+
+
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+}
+
+
+.nav-item a:hover{
+    color: white;
+}
+
+
+.header-buttons a{
+    border: 1px solid#fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+
+.header-buttons a:hover{
+    color: white;
+    background-color: grey;
+}
+
+.center-div p{
+    font-size: 1.3rem;
+    padding: 7px 0 10px 0;
+}
+
+
+/********extradiv css starts here*********/
+
+
+.extradiv{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+
+
+.extra-div{
+    background-color: white;
+    border: medium none;
+    padding: 30px!important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+
+.extra-div:hover{
+    box-shadow: 0 0 30px 0 #FBA51B;
+    transform: translateY(-20px);
+}
+
+
+/*********extradiv css ends here************/
+
+
+/*offers css starts here*/
+
+.offers{
+    background-color: #FBA51B;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+
+.offerheader{
+    margin-bottom: 50px;
+    color: maroon;
+}
+
+.text-center{
+    font-weight: 700;
+}
+
+.name h1{
+    color: maroon;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.service-icon{
+    color: maroon;
+}
+
+.servicediv h2{
+    color: maroon;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 20px 0 15px 0;
+}
+
+.service-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress{
+    height: 1rem!important;
+}
+
+/*offers css ends here*/
+
+/*****projectwork css starts******/
+
+.projectwork{
+    margin: 100px 0;
+}
+
+.projectheader{
+    margin-bottom: 50px;
+    color: #02475C;
+}
+
+.projectwork h1{
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+/*****projectwork css ends******/
+
+
+/*****pricing css starts******/
+
+.pricing{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    background: linear-gradient(160deg, #FBA51B 55%, #010812 0%) ;
+
+}
+
+.pricing h2{
+    color: maroon;
+    font-weight: 700;
+}
+
+.pricingheader{
+    margin-bottom: 50px;
+}
+
+.card-header{
+    color: #007BFF;
+    font-size: 1.4rem;
+    background: #000!important;
+    padding: 25px 0!important;
+}
+
+
+.money{
+    font-size: 40px;
+    line-height: 1;
+    color: #007BFF;
+}
+
+
+.card{
+    transition: 0.4s ease;
+}
+
+.card-body{
+    padding: 30px 0px!important;
+}
+
+.card:hover{
+    box-shadow: 0 0 30px 0 #007BFF;
+    transform: translateY(-20px);
+}
+
+.card-body li{
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #606060;
+}
+
+.card-footer{
+    background: #000;
+    padding: 25px 0;
+}
+
+.card-footer a{
+    border: 1px solid#fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+.card-footer a:hover{
+    color: white;
+    background-color: grey;
+    box-shadow: 0 0 30px 0 #FBA51B;
+}
+
+/*****pricing css ends******/
+
+/*****customer css starts******/
+
+.customer{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0;
+}
+
+.customer-header h2{
+    font-weight: 700;
+    color: maroon;
+    text-shadow: 0 2px 5px #FBA51B;
+}
+
+.customer-header p{
+    font-size: 1.3rem;
+    padding: 7px 0 0px 0;
+    color: maroon;
+    text-shadow: 0 2px 5px #FBA51B;
+}
+
+.box{
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 grey;
+    border-radius: 2px;
+    transition: 0.4s ease;
+    background-color: #fcce7a;
+}
+
+.box:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 #007BFF;
+    background-color: #FBA51B;
+    color: maroon;
+}
+
+.carousel-indicators{
+    bottom: -60px!important;
+}
+
+.carousel-indicators li{
+    background-color: #007BFF;
+}
+
+.box a{
+    position: relative;
+}
+
+.box a img{
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+    margin-top: 20px;
+}
+
+
+/*****customer css ends******/
+
+/*****contact us css starts******/
+
+.contactus{
+    width: 100%;
+    height: 90vh;
+    padding: 80px 0;
+    z-index: -3;
+    background: linear-gradient(320deg, #FBA51B 55%,  #010812 0% );
+}
+
+.contact h2 ,.contact p{
+    color: white;
+    font-weight: 600;
+    text-shadow: 0 2px 5px #FBA51B;
+}
+
+.form-button button{
+    border: 1px solid#fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-weight: bold;
+    color: #007BFF;
+    background-color: #010812!important;
+}
+
+.form-button button:hover{
+    color: white;
+    box-shadow: 0 0 30px 0 #007BFF;
+}
+
+::placeholder{
+    font-size: 0.85rem;
+}
+/*****contact us css ends******/
+
+/*****newsletter css starts******/
+
+.newsletter{
+    width: 100%;
+    height: auto;
+    margin: 80px auto;
+}
+
+.newsheader h2{
+    padding: 7px 0 20px 0;
+    text-shadow: 0 2px 5px #000;
+}
+
+.news-input{
+    border-radius: 100px 0px 0px 100px!important;
+}
+
+.input-group-text{
+    color: #007BFF;
+    background: #010812;
+    border-radius: 0 100px 100px 0 ;
+}
+
+/*****newsletter css ends******/
+
+/*****footer css starts******/
+
+.footersec{
+    width: 100%;
+    height: auto;
+    background: #000E1B;
+    padding: 70px 0 20px 0;
+}
+
+.footer-div, .copyright{
+    background: #FBA51B;
+    color: #000;
+    font-weight: 600;
+}
+
+.footer-div{
+    padding-top: 30px;
+}
+
+.footer-div h3{
+    color: maroon;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    text-shadow: 0 2px 5px #000;
+}
+
+.footer-div li a{
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-div li a:hover{
+    color: #fff;
+}
+
+#mybtn{
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #FBA51B;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*****footer css ends******/
+
+/******* media queries*******/
+
+@media(max-width:768px){
+    .nav-item{
+        text-align: center!important;
+    }
+    .pricing, .customer, .contactus{
+        height: auto;
+        margin-top: 50px;
+    }
+    .card{
+        margin: 30px 0;
+    }
+    .contactus p{
+        padding: o 50px;
+    }
+    
+}
